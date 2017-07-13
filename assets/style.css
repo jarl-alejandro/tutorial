@@ -1,0 +1,33 @@
+body{
+  font-size: 16px;
+  font-family: sans-serif;
+  background: #eee;
+}
+.producto__item{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 2em;
+  align-items: center;
+}
+.productos__header{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+.factura{
+  background: white;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  border-radius: 3px;
+}
+
+.factura__title{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.factura__footer{
+  display: flex;
+  justify-content: space-around;
+}
